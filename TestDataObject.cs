@@ -16,9 +16,18 @@ namespace Stub
             data.FileName = "Практ8";
             list.Add(data);
 
-            list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\ИСРПО\\практ2");
-            list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\УП 02.09-07.09\\шабло отчета уп 3 курс");
-            list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\Осипян\\практ3");
+            data.FullName = "C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\ИСРПО\\практ2";
+            data.FileName = "практ2";
+            list.Add(data);
+
+            data.FullName = "C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\УП 02.09-07.09\\шабло отчета уп 3 курс";
+            data.FileName = "шабло отчета уп 3 курс";
+            list.Add(data);
+
+            data.FullName = "C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\Осипян\\практ3";
+            data.FileName = "практ3";
+            list.Add(data);
+
 
             return list;
         }

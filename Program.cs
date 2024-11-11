@@ -14,6 +14,17 @@ namespace Stub
             string fileName = Console.ReadLine();
             FileManager mgr = new FileManager();
 
+
+
+            if (mgr.FindFullWay(fileName) != null)
+            {
+                Console.WriteLine($"Полный путь до файла {fileName}: {mgr.FindFullWay(fileName)}" );
+            }
+            else
+            {
+                Console.WriteLine("неверный путь до файла или название файла");
+            }
+
         }
     }
 }
