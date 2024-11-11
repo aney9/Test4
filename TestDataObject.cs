@@ -8,10 +8,14 @@ namespace Stub
 {
     public class TestDataObject
     {
-        public List<string> GetFiles()
+        public List<Data> GetFiles()
         {
-            List<string> list = new List<string>();
-            list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\мотыльков\\Практ8");
+            List<Data> list = new List<Data>();
+            Data data = new Data();
+            data.FullName = "C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\мотыльков\\Практ8";
+            data.FileName = "Практ8";
+            list.Add(data);
+
             list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\ИСРПО\\практ2");
             list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\УП 02.09-07.09\\шабло отчета уп 3 курс");
             list.Add("C:\\Users\\nitz4\\Desktop\\МПТ\\третий курс\\Осипян\\практ3");
